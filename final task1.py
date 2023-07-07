@@ -52,7 +52,7 @@ while menu_choice != 6:
         if len(phone)<10:
             print("invalid contact number")
         elif name in numbers :
-                numbers[name]+= " , "+phone
+                numbers[name]+= " & "+phone
         else:
                 numbers[name] = phone
                 
