@@ -14,9 +14,9 @@ def print_menu():
     print('5. delete the number')
     print('6. Quit')
     print()
+    menu_choice = 0
 
 numbers = {}
-menu_choice = 0
 print_menu()
 while menu_choice != 6:
     menu_choice = int(input("Type in a number (1-5): "))
