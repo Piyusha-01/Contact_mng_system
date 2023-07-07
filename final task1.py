@@ -50,6 +50,8 @@ while menu_choice != 6:
         phone = input("Number: ")
         if len(phone)<10:
             print("invalid contact number")
+            break
+            print_menu()
         elif name in numbers :
                 numbers[name]+= " , "+phone
         else:
