@@ -48,7 +48,9 @@ while menu_choice != 6:
         print("Add Name and Number")
         name = input("Name: ")
         phone = input("Number: ")
-        if name in numbers :
+        if len(phone)<10:
+            print("invalid contact number")
+        elif name in numbers :
                 numbers[name]+= " , "+phone
         else:
                 numbers[name] = phone
